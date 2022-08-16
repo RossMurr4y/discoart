@@ -1,5 +1,5 @@
 [Disco Diffusion v5.6 Custom Prompt]
-Line0=0: ["trade cover art of a flying vessel, a wooden spiritsail barge, by James Jean. Sunset, taut sails like wings, rigging, trending on ArtStation:2", "text, blur, bokeh, balloon, hot air balloon:-1"]
+Line0=0: ["trade cover art of a flying vessel, a proud wooden spiritsail barge, by James Jean, sunset, taut canvas sails, rigging, trending on ArtStation:2", "text, signature, blur, bokeh, balloon, hot air balloon:-1"]
 Line1=
 Line2=
 Line3=
@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v3
+batch_name=balstor.airship.v4
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
