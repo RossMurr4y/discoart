@@ -2,7 +2,7 @@
 Line0=0: [
 Line1="Colored ballpoint painting by James Jean depicting a flying merchant yacht. Galleon sails. Above the clouds.:2",
 Line2="Sunset hues, acrylic wash.:1",
-Line3="balloon, waves, border, text, signature, blur, bokeh:-2"]
+Line3="balloon, waves, border, text, signature, blur, bokeh:-1"]
 Line4=
 Line5=
 Line6=
@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v16
+batch_name=balstor.airship.v17
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
