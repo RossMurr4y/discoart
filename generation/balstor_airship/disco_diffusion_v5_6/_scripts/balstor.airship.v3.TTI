@@ -1,5 +1,5 @@
 [Disco Diffusion v5.6 Custom Prompt]
-Line0=0: ["Beautiful detailed Fables cover art of a flying air ship by James Jean, a proud wooden spiritsail barge, sunset, taut canvas sails, rigging, detailed, intricate, trending on ArtStation:2", "balloon, text, signature, blur, bokeh:-1"]
+Line0=0: ["highly detailed ballpoint linework illustration of a flying air ship by James Jean, a proud wooden spiritsail barge, sunset, taut canvas sails, rigging, trending on ArtStation:2", "balloon, text, signature, blur, bokeh:-1"]
 Line1=
 Line2=
 Line3=
@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v8
+batch_name=balstor.airship.v9
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
