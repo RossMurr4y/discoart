@@ -1,7 +1,7 @@
 [Disco Diffusion v5.6 Custom Prompt]
 Line0=0: [
-Line1="highly detailed ballpoint fine art illustration of a flying spiritsail barge at sunset, by James Jean.:2",
-Line2="colored with vibrant acrylic wash. Taut canvas sails, rigging.:1",
+Line1="colored ballpoint painting by James Jean depicting a flying merchant yacht.:2",
+Line2="Sunset hues, acrylic wash.:1",
 Line3="balloon, text, signature, blur, bokeh:-1"]
 Line4=
 Line5=
@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v10
+batch_name=balstor.airship.v11
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
