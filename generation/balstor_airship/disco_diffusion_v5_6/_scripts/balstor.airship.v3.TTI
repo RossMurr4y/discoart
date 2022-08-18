@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v26
+batch_name=balstor.airship.v27
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
@@ -84,10 +84,10 @@ RN101_quickgelu_yfcc15m=0
 diffusion_sampling_mode=ddim
 clamp_grad=1
 clamp_max=0.04
-cut_overview=dd_easing_int(start=0, end=10, steps=1000, easing_fn=cut_easing_fn)
-cut_innercut=dd_easing_int(start=10, end=2, steps=1000, easing_fn=cut_easing_fn)
-cut_ic_pow=[2]*200+dd_easing_float(start=20, end=2, steps=800, easing_fn=cut_easing_fn)
-cut_icgray_p=[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600
+cut_overview=dd_easing_int(start=14, end=4, steps=800, easing_fn=cut_easing_fn)+[0]*200
+cut_innercut=dd_easing_int(start=2, end=14, steps=800, easing_fn=cut_easing_fn)+[14]*200
+cut_ic_pow=dd_easing_float(start=2, end=10, steps=800, easing_fn=cut_easing_fn)+[12]*200
+cut_icgray_p=dd_easing_float(start=0.7, end=0.3, steps=400, easing_fn=cut_easing_fn)+[0]*600
 cut_easing_fn=CubicEaseInOut
 pad_or_pulp_cut_overview=[15]*100+[15]*100+[12]*100+[12]*100+[6]*100+[4]*100+[2]*200+[0]*200
 pad_or_pulp_cut_innercut=[1]*100+[1]*100+[4]*100+[4]*100+[8]*100+[8]*100+[10]*200+[10]*200
