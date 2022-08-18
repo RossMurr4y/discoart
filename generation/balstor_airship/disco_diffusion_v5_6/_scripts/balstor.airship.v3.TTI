@@ -1,9 +1,9 @@
 [Disco Diffusion v5.6 Custom Prompt]
 Line0=0: [
-Line1="Colored ballpoint painting by James Jean depicting a flying merchant yacht. Galleon sails.:3",
+Line1="Colored ballpoint painting by James Jean depicting a flying merchant yacht. Galleon sails. Fantasy spiritsail barge.:3",
 Line3="Sunset hues, acrylic wash:2",
-Line2=
-Line4="balloon, border, text, signature, blur, bokeh:-3"]
+Line2="balloon, border, text, signature, blur, bokeh:-3"]
+Line4=
 Line5=
 Line6=
 Line7=
@@ -17,16 +17,16 @@ Line13=
 Input Phrase=
 Script=Disco Diffusion v5.6 *
 Random seed=1875333761
-Iterations=250
+Iterations=200
 Image Size=512
 [Disco Diffusion v5.6]
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v20.1
+batch_name=balstor.airship.v21
 DeleteFolders=0
 animation_mode=None
-clip_guidance_scale=30000
+clip_guidance_scale=10000
 tv_scale=8000
 range_scale=1500
 sat_scale=15000
@@ -34,7 +34,7 @@ cutn_batches=1
 skip_augs=0
 key_frames=1
 max_frames=10000
-n_batches=10
+n_batches=2
 randomize_class=1
 clip_denoised=0
 fuzzy_prompt=0
@@ -55,7 +55,7 @@ use_horizontal_symmetry=0
 transformation_percent=0.09
 init_image=
 init_scale=1000
-skip_steps=10
+skip_steps=8
 use_secondary_model=1
 diffusion_model=512x512_diffusion_uncond_finetune_008100
 use_checkpoint=0
@@ -83,7 +83,7 @@ RN101_yfcc15m=0
 RN101_quickgelu_yfcc15m=0
 diffusion_sampling_mode=ddim
 clamp_grad=1
-clamp_max=0.03
+clamp_max=0.025
 cut_overview=dd_easing_int(start=0, end=10, steps=1000, easing_fn=cut_easing_fn)
 cut_innercut=dd_easing_int(start=18, end=2, steps=1000, easing_fn=cut_easing_fn)
 cut_ic_pow=[2]*200+dd_easing_float(start=20, end=2, steps=800, easing_fn=cut_easing_fn)
