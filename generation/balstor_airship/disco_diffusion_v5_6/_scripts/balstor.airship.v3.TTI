@@ -16,17 +16,17 @@ Line13=
 [Settings]
 Input Phrase=
 Script=Disco Diffusion v5.6 *
-Random seed=1875333761
+Random seed=1203882569
 Iterations=200
 Image Size=512
 [Disco Diffusion v5.6]
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=832x512
-batch_name=balstor.airship.v22
+batch_name=balstor.airship.v23
 DeleteFolders=0
 animation_mode=None
-clip_guidance_scale=10000
+clip_guidance_scale=30000
 tv_scale=8000
 range_scale=1500
 sat_scale=15000
