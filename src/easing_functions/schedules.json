@@ -1,7 +1,7 @@
 [
   {
-    "DisplayName": "Cut Schedule 000",
-    "Path": "static/images/plots/cut_schedule_000.png",
+    "DisplayName": "Cut Schedule 00",
+    "Path": "static/images/plots/cut_schedule_00.png",
     "cut_easing_fn": "CubicEaseInOut",
     "cut_overview": "[23]*100+dd_easing_int(start=23, end=1, steps=800, easing_fn=cut_easing_fn)+[1]*100",
     "cut_innercut": "[1]*100+dd_easing_int(start=1, end=23, steps=800, easing_fn=cut_easing_fn)+[23]*100",

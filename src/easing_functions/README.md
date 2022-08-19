@@ -26,16 +26,16 @@ It reads an array of schedules from `./schedules.json` and produces a plot outpu
 
 ## Install
 
-From this directory:
+From repo root:
 
 ```terminal
-pip3 install -r requirements.txt
+make install-plots
 ```
 
 ## Usage
 
-From the root of this repo:
+From repo root:
 
 ```terminal
-python3 src/easing_functions/plot_easing_funcs.py python3 <path>/<to>/schedules.json
+make plots
 ```
