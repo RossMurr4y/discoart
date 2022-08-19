@@ -1,0 +1,3 @@
+easing_functions
+matplotlib
+numpy
