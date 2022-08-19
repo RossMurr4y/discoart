@@ -36,8 +36,9 @@ def create_plot(title, path, cut_easing_fn, cut_overview, cut_innercut, cut_ic_p
     plt.savefig(path)
     print(f'Plot {name} saved to: {path}')
 
+
 # open schedules.json
-with open('./schedules.json') as f:
+with open(sys.argv[1]) as f:
     data = json.load(f)
     
 #cut_easing_fn = "CubicEaseInOut"

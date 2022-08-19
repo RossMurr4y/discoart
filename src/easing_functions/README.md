@@ -8,6 +8,8 @@ It reads an array of schedules from `./schedules.json` and produces a plot outpu
 
 ## schedules.json reference
 
+> Path is a relative path from the root of this repo
+
 ```json
 [
     {
@@ -32,8 +34,8 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-From this directory:
+From the root of this repo:
 
 ```terminal
-python3 ./plot_easing_funcs.py
+python3 src/easing_functions/plot_easing_funcs.py python3 <path>/<to>/schedules.json
 ```
