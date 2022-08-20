@@ -1,7 +1,7 @@
 [
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.BackEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.BackEaseInOut.png",
     "cut_easing_fn": "BackEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -9,8 +9,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.BounceEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.BounceEaseInOut.png",
     "cut_easing_fn": "BounceEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -18,8 +18,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.CircularEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.CircularEaseInOut.png",
     "cut_easing_fn": "CircularEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -27,8 +27,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.CubicEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.CubicEaseInOut.png",
     "cut_easing_fn": "CubicEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -36,8 +36,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.ElasticEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.ElasticEaseInOut.png",
     "cut_easing_fn": "ElasticEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -45,8 +45,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.ExponentialEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.ExponentialEaseInOut.png",
     "cut_easing_fn": "ExponentialEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -54,8 +54,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.LinearInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.LinearInOut.png",
     "cut_easing_fn": "LinearInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -63,8 +63,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.QuadEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.QuadEaseInOut.png",
     "cut_easing_fn": "QuadEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -72,8 +72,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.QuarticEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.QuarticEaseInOut.png",
     "cut_easing_fn": "QuarticEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -81,8 +81,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.QuinticEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.QuinticEaseInOut.png",
     "cut_easing_fn": "QuinticEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",
@@ -90,8 +90,8 @@
     "cut_icgray_p": "[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600"
   },
   {
-    "DisplayName": "Grayscale Study v1 Apple",
-    "Path": "studies/grayscale/v1/p1/plots/grayscale.study.v1.p1.SineEaseInOut.png",
+    "DisplayName": "Grayscale Study v1",
+    "Path": "studies/grayscale/v1/plots/grayscale.study.v1.p1.SineEaseInOut.png",
     "cut_easing_fn": "SineEaseInOut",
     "cut_overview": "[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200",
     "cut_innercut": "[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200",

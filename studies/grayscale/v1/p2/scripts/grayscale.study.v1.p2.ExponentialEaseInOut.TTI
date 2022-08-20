@@ -1,8 +1,8 @@
 [Disco Diffusion v5.6 Custom Prompt]
 Line0=0: [
-Line1="A delicious apple on a simple wooden table.",
-Line2=]
-Line3=
+Line1="A beautiful painting of a singular lighthouse, shining its light across a tumultuous sea of blood by greg rutkowski and thomas kinkade, Trending on artstation.",
+Line2="yellow color scheme",
+Line3=]
 Line4=
 Line5=
 Line6=
@@ -23,7 +23,7 @@ Image Size=512
 Custom Prompt=1
 Custom Image Size=1
 Custom Resolution=512x512
-batch_name=grayscale.study.v1.CubicEaseInOut
+batch_name=grayscale.study.v1.ExponentialEaseInOut
 DeleteFolders=0
 animation_mode=None
 clip_guidance_scale=30000
@@ -88,7 +88,7 @@ cut_overview=[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easi
 cut_innercut=[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200
 cut_ic_pow=[2]*500+dd_easing_float(start=10, end=1, steps=500, easing_fn=cut_easing_fn)
 cut_icgray_p=[0.7]*100+[0.6]*100+[0.45]*100+[0.3]*100+[0]*600
-cut_easing_fn=CubicEaseInOut
+cut_easing_fn=ExponentialEaseInOut
 pad_or_pulp_cut_overview=[15]*100+[15]*100+[12]*100+[12]*100+[6]*100+[4]*100+[2]*200+[0]*200
 pad_or_pulp_cut_innercut=[1]*100+[1]*100+[4]*100+[4]*100+[8]*100+[8]*100+[10]*200+[10]*200
 pad_or_pulp_cut_ic_pow=[12]*300+[12]*100+[12]*50+[12]*50+[10]*100+[10]*100+[10]*300
