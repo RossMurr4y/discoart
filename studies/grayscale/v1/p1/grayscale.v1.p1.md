@@ -24,7 +24,7 @@ The following was taken from the .TTI example script "Easing Example" distribute
 
 It was selected due to lack of better option, and its inclusion in the provided examples did undergo at least some level of testing (as seen on their Discord).
 
-```toml
+```ini
 cut_overview=[5]*400+dd_easing_int(start=1, end=5, steps=400, easing_fn=cut_easing_fn)+[0]*200
 cut_innercut=[1]*400+dd_easing_int(start=5, end=1, steps=400, easing_fn=cut_easing_fn)+[6]*200
 cut_ic_pow=[2]*500+dd_easing_float(start=10, end=1, steps=500, easing_fn=cut_easing_fn)
