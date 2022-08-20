@@ -55,7 +55,7 @@ Using the well-known jina-ai prompt for Disco Diffusion.
 
 Because its so well known, its a good baseline. It's also a prompt that provides more complexity than p1.
 
-```json
+```ini
   0: [
     "A beautiful painting of a singular lighthouse, shining its light across a tumultuous sea of blood by greg rutkowski and thomas kinkade, Trending on artstation.",
     "yellow color scheme",
