@@ -1,0 +1,11 @@
+[
+  {
+    "DisplayName": "VoC Example: ",
+    "Path": "static/images/plots/cut_schedule_voc_",
+    "cut_easing_fn": "",
+    "cut_overview": "",
+    "cut_innercut": "",
+    "cut_ic_pow": "",
+    "cut_icgray_p": ""
+  }
+]
